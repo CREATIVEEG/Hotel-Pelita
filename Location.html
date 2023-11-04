@@ -1,0 +1,187 @@
+<!DOCTYPE html>>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <title>Hotel Location</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  
+  <body>
+    <nav class="navbar bg-light navbar-light navbar-expand-lg fixed-top py-3">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><b>Pelita Hotel</b></a>
+
+            <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu">
+
+                <span class="navbar-toggler-icon">
+
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="Location.html" class="nav-link">Location</a></li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact Us</a></li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <section class="header bg-light text-dark text-center text-sm-start pt-5 pb-5 pb-sm-0 mt-5">
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <div>
+                    <h1><span class="text-primary">Lokasi</span> ditengah kota, <span class="text-primary">Pelita</span> Hotel</h1>
+                    <p>
+                        Buka Selama 24 Jam. Pelita Hotel selalu siap melayani.
+                    </p>
+                </div>
+
+                <img 
+                class="img-fluid w-50 d-none d-sm-block" 
+                src="images/location.svg" 
+                alt="header">
+            </div>
+        </div>
+    </section>
+
+    <!-- maps -->
+    <div class="container">
+        <section class="mx-auto my-5" style="max-width: 23rem;">
+      
+          <div class="card map-card">
+            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1982.7677331872453!2d107.16847095688814!3d-6.324576463480801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699b0c08ad8d01%3A0x2b18001d1b1371f9!2sUNIVERSITAS%20PELITA%20BANGSA!5e0!3m2!1sid!2sid!4v1699081408494!5m2!1sid!2sid"frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="card-body closed px-0">
+              <div class="button px-2 mt-3">
+                <a href="https://maps.app.goo.gl/Ls2YDEx3AZbsaiRn7" class="btn btn-floating btn-lg living-coral text-white float-end"
+                  style="margin-right: .75rem;"><i class="fas fa-bicycle"></i></a>
+              </div>
+              <div class="bg-white px-4 pb-4 pt-3-5">
+                <h5 class="card-title h5 living-coral-text">Pelita Hotel</h5>
+                <div class="d-flex justify-content-between living-coral-text">
+                  <h6 class="card-subtitle font-weight-light">Sebuah tempat yang nyaman</h6>
+                  <h6 class="font-small font-weight-light mt-n1">25 min</h6>
+                </div>
+                <hr>
+                <div
+                  class="d-flex justify-content-between pt-2 mt-1 text-center text-uppercase living-coral-text">
+                  <div>
+                    <i class="fas fa-phone fa-lg mb-3"></i>
+                    <p class="mb-0">Call</p>
+                  </div>
+                  <div>
+                    <i class="fas fa-cat fa-lg mb-3"></i>
+                    <p class="mb-0">Love</p>
+                  </div>
+                  <div>
+                    <i class="far fa-grin-beam-sweat fa-lg mb-3"></i>
+                    <p class="mb-0">Smile</p>
+                  </div>
+                </div>
+                <hr>
+                <table class="table table-borderless">
+                  <tbody>
+                    <tr>
+                      <th scope="row" class="px-0 pb-3 pt-2">
+                        <i class="fas fa-map-marker-alt living-coral-text"></i>
+                      </th>
+                      <td class="pb-3 pt-2">Jl. Inspeksi Kalimalang No.9, Cibatu, Cikarang Sel., Kabupaten Bekasi, Jawa Barat 17530</td>
+                    </tr>
+                    <tr class="mt-2">
+                      <th scope="row" class="px-0 pb-3 pt-2">
+                        <i class="far fa-clock living-coral-text"></i>
+                      </th>
+                      <td class="pb-3 pt-2"><span class="deep-purple-text me-2"> Closed</span> Opens 24 Hours
+                      </td>
+                    </tr>
+                    <tr class="mt-2">
+                      <th scope="row" class="px-0 pb-3 pt-2">
+                        <i class="fas fa-cloud-moon living-coral-text"></i>
+                      </th>
+                      <td class="pb-3 pt-2">Sunny weather tomorrow</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+      
+        </section>
+    </div>
+
+    <!-- contact -->
+    <section class="p-5" id="contact">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Us</h2>
+                    <ul class="list-group list-group-flush lead">
+
+                        <li class="list-group-item">
+                            <i class="bi bi-geo-alt"></i>
+                            <span class="fw-bold">Location: </span><br>
+                            Jl. Inspeksi Kalimalang, Cibatu, Kab. Bekasi
+                        </li>
+
+                        <li class="list-group-item">
+                            <i class="bi bi-instagram"></i>
+                            <span class="fw-bold">Instagram: </span><br>
+                            @pelitahotel_
+                        </li>
+
+                        <li class="list-group-item">
+                            <i class="bi bi-telephone"></i>
+                            <span class="fw-bold">Mobile Phone: </span><br>
+                            (+62) 21-123-432
+                        </li>
+
+                        <li class="list-group-item">
+                            <i class="bi bi-envelope"></i>
+                            <span class="fw-bold">Email: </span><br>
+                            pelitahotel@pelita.com
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <img 
+                class="img-fluid d-none d-lg-block" 
+                src="images/contact.svg" 
+                alt="contact">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">
+                Copyright &copy; 2023 PelitaHotel.com
+            </p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  </body>
+</html>
