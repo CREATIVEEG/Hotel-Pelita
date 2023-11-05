@@ -7,14 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-    <title>Pelita Hotel</title>
+    <title>Hotel Rooms</title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
   
   <body>
     <nav class="navbar bg-light navbar-light navbar-expand-lg fixed-top py-3">
         <div class="container">
-            <a href="#" class="navbar-brand"><b>Pelita Hotel</b></a>
+            <a href="index.html" class="navbar-brand"><b>Pelita Hotel</b></a>
 
             <button class="navbar-toggler"
             type="button"
@@ -46,74 +46,55 @@
         <div class="container">
             <div class="d-flex align-items-center">
                 <div>
-                    <h1><span class="text-primary">Pelita</span> ditengah kota, <span class="text-primary">Pelita</span> Hotel</h1>
+                    <h1><span class="text-primary">Kamar</span> beragam, <span class="text-primary">Pilih</span> sesuai keinginan</h1>
                     <p>
-                        Tempat singgah ternyaman. Pelita Hotel siap melayani anda dengan sepenuh hati.
+                        Berbagai pilihan kamar, yang bisa disesuaikan dengan keinginan Anda.
                     </p>
-
-                    <button class="btn btn-primary btn-lg">
-                        Books Now!
-                    </button>
                 </div>
 
                 <img 
                 class="img-fluid w-50 d-none d-sm-block" 
-                src="images/header.svg" 
+                src="images/staying.svg" 
                 alt="header">
             </div>
         </div>
     </section>
 
-    <!-- pelayanan -->
-    <section class="p-5" id="pelayanan">
+    <!-- rooms -->
+    <section class="p-5" id="rooms">
         <div class="container">
-            <div class="row text-center g-4">
-                <div class="col-md">
-                    <div class="card bg-light text-dark">
-                        <img src="images/booking.svg" class="p-2 card-img-top border-0" alt="booking">
-                        <div class="card-body">
-                          <h5 class="card-title">Booking</h5>
-                          <p class="card-text">Booking kapanpun dan dimanapun, gak pake ribet, langsung dapet.</p>
-                          <a href="#" class="btn btn-primary">Jadwal</a>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/Standart Rooms.jpg" class="d-block w-100 h-100" alt="Standart">
+                    <div class="border border-warning-subtle carousel-caption d-none d-md-block bg-light text-dark" style="--bs-bg-opacity: .5;">
+                        <h5>Standart Room</h5>
+                        <p>Kamar Standart, bagi Anda yang memiliki budget minim.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Superior Rooms.jpg" class="d-block w-100 h-100" alt="Standart">
+                        <div class="border border-warning-subtle carousel-caption d-none d-md-block bg-light text-dark" style="--bs-bg-opacity: .5;">
+                            <h5>Superior Room</h5>
+                            <p>Kamar Superior, kamar luas dan nyaman.</p>
                         </div>
-                      </div>
                 </div>
-                <div class="col-md">
-                    <div class="card bg-info text-light">
-                        <img src="images/event.svg" class="p-2 card-img-top" alt="acara">
-                        <div class="card-body">
-                          <h5 class="card-title">Event</h5>
-                          <p class="card-text">Buat acara semakin meriah dan mewah bersama Pelita Hotel.</p>
-                          <a href="#" class="btn btn-secondary">Pesan</a>
-                        </div>
-                      </div>
+                <div class="carousel-item">
+                    <img src="images/Deluxe Rooms.jpg" class="d-block w-100 h-100" alt="Standart">
+                    <div class="border border-warning-subtle carousel-caption d-none d-md-block bg-light text-dark" style="--bs-bg-opacity: .5;">
+                        <h5>Deluxe Room</h5>
+                        <p>Kamar Deluxe, kamar mewah dengan pelayanan ramah.</p>
+                    </div>
                 </div>
-                <div class="col-md">
-                    <div class="card bg-light text-dark">
-                        <img src="images/staying.svg" class="p-2 card-img-top border-0" alt="ruangan">
-                        <div class="card-body">
-                          <h5 class="card-title">Rooms</h5>
-                          <p class="card-text">Berbagai pilihan ruangan yang bisa disesuaikan dengan keinginan anda.</p>
-                          <a href="rooms.html" class="btn btn-primary">Lihat</a>
-                        </div>
-                      </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- promo -->
-    <section class="bg-primary text-light p-5" id="promo">
-        <div class="container">
-            <div class="d-md-flex justify-content-beetween align-items-center">
-                <h3>Dapatkan Promo menarik</h3>
-            
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Masukan Email Anda">
-                    <button class="btn btn-dark btn-lg" type="button">
-                        Submit
-                    </button>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </section>
