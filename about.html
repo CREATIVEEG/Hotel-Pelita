@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.2/components/abouts/about-1/assets/css/about-1.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-    <title>Hotel Location</title>
-    <link rel="stylesheet" href="css/maps.css">
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/rooms.css">
   </head>
   
   <body>
@@ -46,85 +47,67 @@
         <div class="container">
             <div class="d-flex align-items-center">
                 <div>
-                    <h1><span class="text-primary">Lokasi</span> ditengah kota, <span class="text-primary">Pelita</span> Hotel</h1>
+                    <h1><span class="text-primary">Tentang</span> Kami, <span class="text-primary">Pelita</span> Hotel</h1>
                     <p>
-                        Buka Selama 24 Jam. Pelita Hotel selalu siap melayani.
+                        Mengenal lebih dekat, dengan Pelita Hotel.
                     </p>
                 </div>
 
                 <img 
-                class="img-fluid w-50 d-none d-sm-block" 
-                src="images/location.svg" 
+                class="img-fluid w-3 d-none d-sm-block" 
+                src="images/about.svg" 
                 alt="header">
             </div>
         </div>
     </section>
 
-    <!-- maps -->
-    <div class="container">
-        <section class="mx-auto my-5" style="max-width: 23rem;">
-      
-          <div class="card map-card">
-            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1982.7677331872453!2d107.16847095688814!3d-6.324576463480801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699b0c08ad8d01%3A0x2b18001d1b1371f9!2sUNIVERSITAS%20PELITA%20BANGSA!5e0!3m2!1sid!2sid!4v1699081408494!5m2!1sid!2sid"frameborder="0" style="border:0" allowfullscreen></iframe>
+    <!-- About 1 - Bootstrap Brain Component -->
+    <section class="py-3 py-md-5 py-xl-8">
+        <div class="container">
+        <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+            <div class="col-12 col-lg-6 col-xl-5">
+            <img class="img-fluid rounded" loading="lazy" src="images/about.jpg" alt="PelitaHotel">
             </div>
-            <div class="card-body closed px-0">
-              <div class="button px-2 mt-3">
-                <a href="https://maps.app.goo.gl/Ls2YDEx3AZbsaiRn7" class="btn btn-floating btn-lg living-coral text-white float-end"
-                  style="margin-right: .75rem;"><i class="fas fa-bicycle"></i></a>
-              </div>
-              <div class="bg-white px-4 pb-4 pt-3-5">
-                <h5 class="card-title h5 living-coral-text">Pelita Hotel</h5>
-                <div class="d-flex justify-content-between living-coral-text">
-                  <h6 class="card-subtitle font-weight-light">Sebuah tempat yang nyaman</h6>
-                  <h6 class="font-small font-weight-light mt-n1">25 min</h6>
+            <div class="col-12 col-lg-6 col-xl-7">
+            <div class="row justify-content-xl-center">
+                <div class="col-12 col-xl-11">
+                <h2 class="h1 mb-3">Siapa Kita?</h2>
+                <p class="lead fs-4 text-secondary mb-3">Kita membantu, para pelanggan untuk mendapatkan akomodasi hotel terbaik, dengan harga yang dapat bersaing. Pelita Hotel menjadi pilihan terbaik bagi Anda.</p>
+                <p class="mb-5">Pelita Hotel berdiri pada tahun 2020, yang berlokasi di samping Universitas Pelita Bangsa. Lebih lengkapnya Anda bisa mengecek bagian contact us. Kami Pelita hotel, dengan sepenuh hati siap melayani Anda kapanpun dan dimanapun.</p>
+                <div class="row gy-4 gy-md-0 gx-xxl-5X">
+                    <div class="col-12 col-md-6">
+                    <div class="d-flex">
+                        <div class="me-4 text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                            <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
+                        </svg>
+                        </div>
+                        <div>
+                        <h4 class="mb-3">Versatile Brand</h4>
+                        <p class="text-secondary mb-0">We are crafting a digital method that subsists life across all mediums.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                    <div class="d-flex">
+                        <div class="me-4 text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
+                            <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
+                        </svg>
+                        </div>
+                        <div>
+                        <h4 class="mb-3">Digital Agency</h4>
+                        <p class="text-secondary mb-0">We believe in innovation by merging primary with elaborate ideas.</p>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-                <hr>
-                <div
-                  class="d-flex justify-content-between pt-2 mt-1 text-center text-uppercase living-coral-text">
-                  <div>
-                    <i class="fas fa-phone fa-lg mb-3"></i>
-                    <p class="mb-0">Call</p>
-                  </div>
-                  <div>
-                    <i class="fas fa-cat fa-lg mb-3"></i>
-                    <p class="mb-0">Love</p>
-                  </div>
-                  <div>
-                    <i class="far fa-grin-beam-sweat fa-lg mb-3"></i>
-                    <p class="mb-0">Smile</p>
-                  </div>
                 </div>
-                <hr>
-                <table class="table table-borderless">
-                  <tbody>
-                    <tr>
-                      <th scope="row" class="px-0 pb-3 pt-2">
-                        <i class="fas fa-map-marker-alt living-coral-text"></i>
-                      </th>
-                      <td class="pb-3 pt-2">Jl. Inspeksi Kalimalang No.9, Cibatu, Cikarang Sel., Kabupaten Bekasi, Jawa Barat 17530</td>
-                    </tr>
-                    <tr class="mt-2">
-                      <th scope="row" class="px-0 pb-3 pt-2">
-                        <i class="far fa-clock living-coral-text"></i>
-                      </th>
-                      <td class="pb-3 pt-2"><span class="deep-purple-text me-2"> Closed</span> Opens 24 Hours
-                      </td>
-                    </tr>
-                    <tr class="mt-2">
-                      <th scope="row" class="px-0 pb-3 pt-2">
-                        <i class="fas fa-cloud-moon living-coral-text"></i>
-                      </th>
-                      <td class="pb-3 pt-2">Sunny weather tomorrow</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
             </div>
-          </div>
-      
-        </section>
-    </div>
+            </div>
+        </div>
+        </div>
+    </section>
 
     <!-- contact -->
     <section class="p-5" id="contact">
@@ -185,5 +168,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
